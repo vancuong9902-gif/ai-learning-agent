@@ -13,6 +13,20 @@ DB tối thiểu (migrations/khung DB)
 
 Quy ước branch/PR + template báo cáo tuần
 
++) Trương Thùy Linh
+
+ Tạo bài test đầu vào (có thể hard-code 15–20 câu ban đầu)
+ 
+ Xây rule phân level:
+    
+    <40% Beginner, 40–70 Intermediate, >70 Advanced
+ 
+ Endpoint /profile/diagnostic nhận answers → trả level
+
+Hoàn thành khi: test xong ra level
+
+Hoàn thành khi: sau quiz, mastery thay đổi
+
 +) Mai Trung Đức:
 
 Thiết kế format dữ liệu quiz (quiz, questions)
@@ -98,6 +112,16 @@ Gợi ý format nộp thầy: bạn có thể chụp màn hình 3 thứ:
  Tạo seed data + script demo
  
 Hoàn thành khi: có demo “generate quiz từ tài liệu”
+
++) Trương Thùy Linh 
+
+ Lưu learner_profile vào DB (level + mastery theo topic dạng JSON)
+
+ Tạo logic cập nhật mastery sau quiz:
+
+   đúng +α, sai -β (đơn giản)
+
+Hoàn thành khi: sau quiz, mastery thay đổi
 
 +) Mai Trung Đức
 
