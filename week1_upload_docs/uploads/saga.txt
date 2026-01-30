@@ -1,2 +1,0 @@
-Saga là một mẫu thiết kế trong hệ thống phân tán.
-Nó giúp đảm bảo tính nhất quán dữ liệu bằng cách chia giao dịch thành nhiều bước.
